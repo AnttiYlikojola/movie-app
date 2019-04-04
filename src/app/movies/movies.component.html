@@ -1,0 +1,7 @@
+<div *ngIf="movies$ | async; let movies">
+  <div *ngFor="let movie of movies">
+    {{ movie.title }}
+  </div>
+</div>
+
+<a (click)="onClick()"> hello</a>
